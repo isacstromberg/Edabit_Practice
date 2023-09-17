@@ -39,45 +39,28 @@ uncensor("*PP*RC*S*", "UEAE") ➞ "UPPERCASE"
            
             char[] vowelsArray = vowels.ToCharArray();
             char[] charArray = text.ToCharArray();
-            bool countainsCensoredLetters = false;
             string uncensoredText = "";
+            int counter = 0;
 
-            foreach (char i in charArray)
+          
+
+            foreach (char c in charArray)
             {
-                if (i == '*')
+                if (c == '*')
                 {
-                    countainsCensoredLetters = true;
+                    uncensoredText += vowelsArray[counter];
+                    counter++;
                 }
-
-              
+                else if (c != '*')
+                {
+                    uncensoredText += c;
+                }
             }
 
-            if (countainsCensoredLetters == false)
-            {
-                return text;
-            }
 
-            foreach (char c in vowelsArray)
-            {
 
-              
-                    foreach (char ch in charArray)
-                    {
-                        if (ch == '*')
-                        {
-                            uncensoredText += c;
-                            break;
-                        }
-                        else if (ch != '*')
-                        {
-                            uncensoredText += ch;
-                            break;
-                        }
 
-                    }
-                
-
-            }
+          
 
             return uncensoredText;
 
@@ -85,7 +68,7 @@ uncensor("*PP*RC*S*", "UEAE") ➞ "UPPERCASE"
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-          MessageBox.Show(UncensorVowels("*bcd", "a"));
+          MessageBox.Show(UncensorVowels("test", ""));
         }
     }
 }

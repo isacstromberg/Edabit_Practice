@@ -29,7 +29,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Count_the_Letters_and_Digit
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReverseAndNot", "ReverseAndNot\ReverseAndNot.csproj", "{401592EF-8AD8-43D4-9E6E-9D7163CB6CA7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Censored_Strings", "Censored_Strings\Censored_Strings.csproj", "{489DF627-5F35-4DB0-8733-D65355037301}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Censored_Strings", "Censored_Strings\Censored_Strings.csproj", "{489DF627-5F35-4DB0-8733-D65355037301}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ATM_Pin_Code", "ATM_Pin_Code\ATM_Pin_Code.csproj", "{2B83B670-D9DB-4806-9ED4-5C5D9E3B548A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -93,6 +95,10 @@ Global
 		{489DF627-5F35-4DB0-8733-D65355037301}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{489DF627-5F35-4DB0-8733-D65355037301}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{489DF627-5F35-4DB0-8733-D65355037301}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2B83B670-D9DB-4806-9ED4-5C5D9E3B548A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B83B670-D9DB-4806-9ED4-5C5D9E3B548A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B83B670-D9DB-4806-9ED4-5C5D9E3B548A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B83B670-D9DB-4806-9ED4-5C5D9E3B548A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

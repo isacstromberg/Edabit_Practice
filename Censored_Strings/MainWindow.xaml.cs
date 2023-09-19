@@ -26,14 +26,6 @@ namespace Censored_Strings
             InitializeComponent();
         }
 
-        /*
-         uncensor("Wh*r* d*d my v*w*ls g*?", "eeioeo") ➞ "Where did my vowels go?"
-
-uncensor("abcd", "") ➞ "abcd"
-
-uncensor("*PP*RC*S*", "UEAE") ➞ "UPPERCASE"
-         */
-
         public string UncensorVowels(string text, string vowels)
         {
            
@@ -68,7 +60,7 @@ uncensor("*PP*RC*S*", "UEAE") ➞ "UPPERCASE"
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-          MessageBox.Show(UncensorVowels("test", ""));
+          MessageBox.Show(UncensorVowels("n* t*st*r v* *xtr* m*ck*t", "ueaieaye"));
         }
     }
 }

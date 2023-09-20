@@ -46,9 +46,10 @@ namespace ATM_Pin_Code
                         return false;
                     }
 
-                    return true;
+                   
 
                 }
+                return true;
             }
 
             return false;
@@ -57,7 +58,7 @@ namespace ATM_Pin_Code
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            CheckIfATMCodeIsValid("");
+            CheckIfATMCodeIsValid("1234");
         }
     }
 }
